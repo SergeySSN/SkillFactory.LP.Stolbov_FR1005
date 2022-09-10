@@ -1,0 +1,1192 @@
+@font-face {
+    font-family: NunitoSans-Regular;
+    src: url(../fonts/NunitoSans-Regular.ttf);
+}
+@font-face {
+    font-family: NunitoSans-Italic;
+    src: url(../fonts/NunitoSans-Italic.ttf);
+}
+@font-face {
+    font-family: NunitoSans-Bold;
+    src: url(../fonts/NunitoSans-Bold.ttf);
+}
+@font-face {
+    font-family: YesevaOne-Regular;
+    src: url(../fonts/YesevaOne-Regular.ttf);
+}
+body {
+    margin: 0;
+    font-family: NunitoSans-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+
+}
+body * {
+    box-sizing: border-box;
+}
+/*Header*/
+
+.header {
+    background-color: black;   
+    font-size: 11px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header-content {
+    margin:0;
+    display: flex;
+    justify-content: space-around;
+    height: 83px;
+    align-items: center;
+}
+.Logo {
+    color: #E3B873;
+    min-width: 152px;
+    margin-left: 20px;
+}
+.navigation-list {
+    display: flex;
+    list-style: none;
+}
+.navigation-items {
+    margin-right: 47px;
+    justify-self: auto;
+    
+}
+.navigation-items a {
+    color: white;
+    text-decoration: none;
+}
+.Phone {
+    color: white;
+    min-width: 102px;
+}
+
+/*Желтая кнопка*/
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-family: NunitoSans-Italic, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    font-style: italic;
+    text-align: center;
+}
+
+/*Секция 1*/
+
+.Home {
+    background-image:url(../images/image\ 4.3.jpg);
+    background-size: cover;
+    height: 707px;
+    margin: 0;
+    position: relative;
+    padding-top: 194px;
+    padding-left: 134px;
+}
+
+.Home-overlay {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    
+}
+.home-content {
+    position: relative;
+    z-index: 1;
+}
+.h1 {
+    font-family: YesevaOne-Regular, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.City {
+    color: #E3B873;
+}
+.text {
+    font-family: NunitoSans-Regular, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: white;
+    width: 504px;
+    line-height: 36px;
+}
+
+/*Прозрачная кнопка*/
+
+.button-simple {
+    background: none;
+    border: 1px solid #FFFFFF;
+    margin-left: 20px;
+}
+
+
+/*Секция 2*/
+
+.Projects {
+    height: 1074px; 
+    background-color: black;
+}
+.projects-list {
+    margin-left: 620px;
+    margin-top: 0;
+    padding-top: 107px;
+}
+.items a {
+    color: rgba(255, 255, 255, 0.37);
+    font-family: YesevaOne-Regular, 'Times New Roman', Times, serif ;
+    font-size: 14px;
+    margin-right: 30px;
+    justify-self: flex-end;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.wrap {
+    display: flex;
+    margin: 0;
+    height: 552px;
+    margin-left: 134px;
+}
+.projects-content {
+    height: 442px;
+    width: 450px;
+    margin-right: 50px;
+}
+.projects-image {
+    background-image: url(../images/image\ 2.1\ projects.jpg);
+    background-size: cover;
+    margin: 0;
+    position: relative;
+    width: 679px;
+    height: 482px;
+}
+.h2 {
+    font-family: YesevaOne-Regular, 'Times New Roman', Times, serif;
+    font-size: 27;
+    color: #E3B873;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+}
+.text-projects_1 {
+    font-family: NunitoSans-Regular, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+
+/*Таблица 2х2*/
+
+.table_2x2 {
+    display: grid;
+    grid-template-columns: repeat(2,190px);
+    row-gap: 34px;
+    margin-top: 28px;
+    margin-bottom: 70px;
+    
+}
+.project-parameter {
+    font-family: YesevaOne-Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-bottom: 9px;
+}
+.project-value {
+    margin-left: 0;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 21px;
+    max-width: 118px;
+}
+a:hover {
+    text-decoration: underline;
+    color: #E3B873;
+}
+
+
+/*Секция 3*/
+
+.Container-control {
+    margin-top: -300px;
+}
+.h3 {
+    font-family: YesevaOne-Regular, 'Times New Roman', Times, serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.icon-camera {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.Line {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Video-control {
+    background-image: url(../images/image\ 6\ Video\ stop.jpg);
+    background-size: cover;
+    width: 817px;
+    height: 434px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#Shadow {
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#V-arrow {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   display: flex;
+}
+.VideoIcon {
+    margin: auto;
+    top: 50%;
+}
+.text-control {
+    font-family: NunitoSans-Regular, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#363636;
+    width: 681px;
+    margin: auto;
+}
+
+.Your_contacts {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 770px;
+    margin: auto;
+}
+.submit {
+    height: 37px;
+    font-style: normal;
+    width: 200px;
+}
+
+.nameInput-box {
+    font-family: NunitoSans-Regular, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+.input-box {
+    border: 0;
+    border-bottom: 1px solid #3636364D;
+}
+.input-box::placeholder {
+    font-family: NunitoSans-Regular, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+}
+/*Рисуем первый checkbox*/
+.first-checkbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.label {
+    cursor: pointer;
+  }
+  .checkbox{
+    display: none;
+  }
+  .fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+  }
+  .fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
+  .checkbox:checked + .fake::before{
+    opacity: 1;
+  }
+  .text-checkbox {
+    font-family: NunitoSans-Regular, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #181818;
+  }
+  /*Секция 4 Types of Repairs*/
+
+.content-Repairs {
+    margin-top: 76px;
+}
+.h3-repairs_subtitle {
+    color:#181818
+}
+.icon-hummer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.wrap_for_3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.h4 {
+    font-family: YesevaOne-Regular, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    margin-top: 25px;
+    margin-left: 34px;
+}
+.Redecorating {
+    display: flex;
+    height: 421px;
+    width: 392px;
+    background-image: url(../images/image\ 1.jpg);
+    margin-right: 30px;
+    justify-content: center;
+}
+.Overhaul {
+    display: flex;
+    height: 421px;
+    width: 392px;
+    background-image: url(../images/image\ 2.1.jpg);
+    margin-right: 30px;
+    justify-content: center;
+}
+.Designer_Repair {
+    display: flex;
+    height: 421px;
+    width: 392px;
+    background-image: url(../images/image\ 3.1.jpg);
+    justify-content: center;
+}
+.Repairs-content_3 {
+    background-color: #FFFFFF;
+    margin-top: 294px;
+}
+.feature-list {
+    color: #959595;
+    font-size: 13px;
+    line-height: 27px;
+
+
+}
+.Price {
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    width: 228px;
+    height: 54px;
+    text-align: center;
+    font-family: YesevaOne-Regular, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 14px;
+    
+}
+.service-item {
+    display: flex;
+    color: #363636;
+    width: 378px;
+}
+.wrap-for_2 {
+    background-image: url(../images/Wallpaper\ City.png);
+    background-size: auto;
+    height: 645px;
+    display: flex;
+    margin-top: 311px;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.service-list {
+    width: 1006 px;
+    height: 645px;
+    margin-left: 240px;
+    margin-right: 131px;
+    margin-top: 100px;
+}
+.service-item {
+    margin-bottom: 51px;
+    position: relative;
+    font-family: NunitoSans-Regular, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.numbers {
+    position: relative;
+}
+.numbers-over {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: YesevaOne-Regular, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    bottom: 57px;
+    left: 33px;
+}
+.blacksquare {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 100px;
+    margin-top: 100px;
+    width: 506px;
+    height: 509px;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    color: #FFFFFF;
+}
+.title-form {
+    align-self: center;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+.black {
+    margin-top: 20px;
+    margin-left: 49px;
+    background-color: #131313;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    width: 408px;
+}
+.blackform {
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 49px;
+}
+.black::placeholder {
+  color: #FFFFFF;  
+  font-size: 14px;
+} 
+.white-text {
+  color: #FFFFFF;
+}
+.second-box {
+    margin-left: 49px;
+    margin-top: -35px;
+}
+.call-button {
+    align-self: center;
+    margin-top: 55px;
+    margin-left: 244px;
+    width: 213px;
+}
+.bottom-block {
+    display: flex;
+}
+.left-block {
+    width: 750px;
+}
+.Pig {
+    display: flex;
+    /*margin-left: 700px;*/
+    color: #E3B873;
+    font-size: 18px;
+    justify-self: flex-start;
+}
+
+/*Секция 5 Fantasies*/
+
+.Fantasies {
+    background-image: url(../images/Fantasies.jpg);
+    background-size: cover;
+    height: 864px;
+    margin: 0;
+    position: relative;
+    margin-top: 242px;
+}
+
+.Fantasies-overlay {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    
+}
+.Fantasies-content {
+    position: relative;
+    z-index: 1;
+}
+.wrap-fantasies {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+.fantasies-img {
+    width: 354px;
+    margin-left: 43px;
+}
+.fantasies-list {
+    width: 411px;
+    padding-left: 100px;  
+}
+.title-fantasies {
+    width: 411px;
+    margin-top: 137px;
+    font-size: 27px;
+    line-height: 37px;
+}
+.style-title {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 48px;
+}
+.column_1 {
+    margin-top: -41px;
+    margin-bottom: -41px;
+}
+.img-item_1 {
+    margin-bottom: 41px;
+}
+.column_2 {
+    margin-top: -112px;
+}
+.img-item_3 {
+    margin-bottom: 37px;
+}
+.Clients {
+    height: 1107px;
+}
+.Clients-content {
+    margin-top: 110px;
+}
+.h3-clients_subtitle {
+    color: #131313;
+}
+.text-clients {
+    width: 420px;
+}
+.clients-box {
+    display: flex;
+    margin-left: 73px;
+    margin-right: 73px;
+}
+.clients-name {
+    max-width: 178px;
+    margin: 0;
+}
+.client-content {
+    /*display: flex;*/
+    height: 428px;
+    width: 376px;
+    margin-right: 27px;
+    margin-left: 27px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.Person {
+    margin-left: 20px;
+}
+.round-image {
+    overflow: hidden;
+    width: 33%;
+    padding-bottom: 33%;
+    height: 0;
+    position: relative;
+}
+.round-image img {
+  height:70%;
+  position: absolute;
+  clip-path: circle(50%);
+  object-fit: cover;
+}
+.identity {
+    display: flex;
+    max-height: 100px;
+}
+.client-comments {
+    width: 324px;
+    height: 216px;
+    line-height: 23px;
+}
+.Double-Price {
+    display: flex;
+    max-width: 293px;
+    justify-content: flex-start;
+    margin-top: 63px;
+}
+.m2-days {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.separator {
+    width: 1px;
+    background-color: #FFFFFF;
+}
+.background {
+    background-image: url(../images/Group\ wall.png);
+    height: 381px;
+    width: 100%;
+    background-repeat: round;
+    opacity: 0.1;
+} 
+
+#clients-feedback {
+    width: 883px;
+    height: 445px;
+    margin: -222px auto 0 auto;
+    position: absolute;
+    z-index: 2;
+    left: 15%;
+}
+.container_100_width {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.name-phone-question {
+    padding-left: 181px;
+    padding-right: 181px;
+    justify-self: auto;
+}
+.submit-clients {
+    width: 200px;
+    margin: 0 auto;
+}
+.title-name {
+    margin-right: 110px;
+}
+.feedback-box {
+    width: 203px;
+    margin: 0;
+    color: #FFFFFF;
+}
+.feedback-box::placeholder {
+    color: #FFFFFF;  
+    font-size: 14px;
+    
+}
+.question-box {
+    width: 516px;
+    margin: 0;
+    color: #FFFFFF;
+   
+}
+.question-box::placeholder {
+    color: #FFFFFF;  
+    font-size: 14px;
+}
+.label-name {
+    color: rgba(255, 255, 255, 0.5);
+}
+.client-checkbox {
+    margin: 40px auto 40px auto;
+}
+
+/*Секция 7*/
+
+.Address {
+    height: 954px;
+    background-image: url(../images/image\ Walls\ Ericsson.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    position: relative;
+}
+.content-address {
+    position: relative;
+    z-index: 1;
+    margin-top: -94px;
+}
+.address-title {
+    color: #E3B873;
+    width: 589px;
+    /*margin-top: 274px;*/
+    margin: 250px auto 26px auto;
+}
+.contacts_icons {
+    margin: auto;
+    display: flex;
+    width: 71px;
+    justify-content: space-between;
+}
+.Map {
+    width: 925px;
+    height: auto;
+    margin: 30px auto; 
+}
+/*Footer*/
+.footer {
+    height: 133px;
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+
+/* Адаптируем под мобильные устройства
+break-point 1300px*/
+
+@media screen and (max-width:1299px){
+   /* Header:
+    скрываем меню навигации и кнопку*/
+.navigation-list {
+    display: none;
+}
+.button-nav {
+    display: none;
+}
+
+/*Секция 1 Home:
+делаем кнопки вертикально и
+выравниваем тексты и шрифт*/
+
+.Home {
+    padding-left: 10px;
+    padding-top: 85px;
+    height: 476px;
+    background-position: center;
+}
+.home-content h1 {
+    font-size: 23px;
+    line-height: 31px;
+    text-align: left;
+    padding-left: 18px;
+    max-width: 339px;
+}
+.home-content p {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: left;
+    margin-bottom: 30px;
+    max-width: 339px;
+}
+.Home-text {
+    width: auto;
+    padding: 0 18px;
+}
+#button-group {
+    display: block;
+    margin-top: 5px;
+    padding-left: 18px;
+}
+.home-content button{
+display: block;
+text-align: center;
+padding-left: 18px;
+margin-left: 0;
+margin-top: 26px;
+width: 338px;
+}
+
+/*Секция 2 Completed Projects*/
+
+.Projects {
+    height: 600px;
+}
+
+.projects-list items a{
+    display: none;
+}
+.projects-image {
+    display: none;
+}
+.wrap {
+    margin: 0 auto;
+    padding: 0 10px;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.projects-content {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    max-width: 375px;
+}
+.projects-content h2{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 253px;
+    padding-top: 36px;
+    margin: 0 auto;
+}
+.projects-content p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.hidden-image {
+    margin: 0 auto;
+    height: 241px;
+    width: 340px;
+    background-image: url(../images/Mobile\ image\ Projects.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /*margin: 36px;*/
+}
+.left {
+    width: 36px;
+    background-image: url(../icons/Mobile\ Group\ Arrow\ square\ left.svg);
+    background-size: 36px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin: 0 12px;
+}
+.right {
+    width: 36px;
+    background-image: url(../icons/Mobile\ Group\ Arrow\ square\ right\ .svg);
+    background-size: 36px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin: 0 12px;
+    }
+.hidden-arrows {
+    display: flex;
+    justify-content: center;
+}
+
+
+.text-projects_1 {
+    width: 311px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.table_2x2 {
+    grid-template-columns: repeat(2,180px);
+    row-gap: 20px;
+    padding-left: 25px;
+}
+
+.project-parameter {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.project-value {
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+    
+#Slider {
+    display: none;
+}
+
+/*Секция 3 On-line control*/
+
+.On-line {
+    margin-top: -22px;
+}
+.Container-control {
+    height: 807px;
+    margin-top: 0;
+    background-color: black;
+}
+.Video-control {
+    width: 340px;
+    height: 207px;
+}
+.h3-control {
+    padding-top: 22px;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.text-control {
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    width: 340px;
+    padding-top: 10px;
+}
+.Your_contacts {
+    display: block;
+    margin: 0 auto;
+    /*display: flex;
+    justify-content: space-between;*/
+    /*align-items: center;*/
+    width: 375px;
+    padding-top: 60px;
+}
+.nameInput-box {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF80;
+
+}
+.input-box {
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background-color:black;
+    width: 339px;
+    margin-bottom: 60px;
+}
+.input-box::placeholder {
+    color:#FFFFFF
+}
+.text-checkbox {
+color: #FFFFFF;
+}
+.submit {
+    display: block;
+    margin: 0 auto;
+    width: 340px;
+}
+
+.first-checkbox {
+    margin: 0 auto;
+    margin-top: -90px;
+}
+
+/*Секция 4 Types of Repair*/
+
+.wrap_for_3 {
+    display: block;
+    margin: 0 auto;
+}
+.Repairs-content_3 {
+    justify-items: flex-start;
+    margin-top: 200px;
+}
+.h4-repairs_subtitle {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.Redecorating {
+    background-size: cover;
+    height: 365px;
+    width: 340px;
+    margin: 0 auto;  
+    justify-content: flex-start;
+    
+}
+.Overhaul {
+    background-size: cover;
+    height: 365px;
+    width: 340px;
+    margin: 200px auto;
+    justify-content: flex-start;
+}
+
+.Designer_Repair {
+    background-size: cover;
+    height: 365px;
+    width: 340px;
+    margin: 0 auto;  
+    justify-content: flex-start;
+}
+.wrap-for_2 {
+    display: none;
+}
+.bottom-block {
+display: none;
+}
+/*Секция 5 Fantasies*/
+
+.column_1 {
+    display: none;
+}
+.column_2 {
+    display: none;
+}
+.fantasies-list ul {
+    display: none;
+}
+.wrap-fantasies {
+    padding: 10px;
+}
+.fantasies-list {
+    margin: 0 auto;
+    width: 340px;
+    padding-left: 0;
+    margin-top: -95px;
+}
+.title-fantasies {
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0em;
+    margin: 0 auto;
+    width: 340px;
+}
+
+.Fantasies-overlay {
+    display: none;
+}
+.Fantasies{
+    margin: 292px auto 0 auto;
+    width: 340px;
+    height: 242px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.Clients {
+    display: none;
+}
+
+.Address {
+    height: 1074px;
+    background-image: none;
+    background-color:#131313;
+    margin-top: 0 auto;
+}
+
+.name-phone-question {
+    display: block;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.name-phone-question p {
+    margin: 31px 0;
+}
+.name-phone-question .Question{
+    margin-top: -5px;
+}
+
+.content-address {
+    display: block;
+    margin: -120px auto 0 auto;
+    padding-top: 50px;
+    }
+
+.address-title {
+    margin-top: 300px;
+    max-width: 340px;
+    font-size: 18px;
+}
+
+.Map {
+    margin: -450px auto;
+    width: 340px;
+    height: 242px;
+
+}
+.Map img {
+    width: 340px;
+    height: 242px;
+    margin-top: 10px;
+}
+.Address .Home-overlay {
+    display: none;
+}
+
+.container-form {
+    display: block;
+    margin-top: 0px;
+    /*margin: 120px auto 0 auto;*/
+}
+
+#clients-feedback {
+    display: block;
+    margin: 0px auto 0 auto;
+    width: 375px;
+    height: 445px;
+    left: 0;
+    position: relative;
+    z-index: -1;
+    /*text-align: center;*/
+    /*position: absolute;
+    z-index: 1;
+    left: 15%;*/
+}
+.any-question {
+    margin-bottom: 0;
+    margin-top: 120px;
+}
+.feedback-box, .question-box {
+    width: 340px;
+}
+.client-checkbox {
+    margin: 0 auto;
+    margin-left: 0;
+    display: block;
+    padding-left: 18px;
+    
+}
+.submit-clients {
+    margin-top: 45px;
+    width: 340px;
+    
+}
+
+/*Footer*/
+
+.footer {
+    display: none;
+}
+
+
+
+}
+
+
+
